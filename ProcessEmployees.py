@@ -32,7 +32,7 @@ tot_new = 0.0
 for r in repr_infile:
     #check if the employee fits the search criteria
 
-    if r[9] == 'TS' and r[3] == 'Marketing':
+    if r[9] == 'TS' and r[3] == 'Marketing' and r[4]=='CSR':
         
         emp_name = r[1]+' '+r[2]
         cur_sal = int(r[5])
